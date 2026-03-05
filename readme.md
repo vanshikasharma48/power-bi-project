@@ -1,28 +1,142 @@
-Built an end-to-end Retail Sales Analytics project using Python, Pandas, and Power BI. Performed data cleaning, exploratory data analysis, time-series analysis, statistical testing, and customer/product performance evaluation. Developed an interactive executive dashboard tracking KPIs such as Sales, Profit Margin, Customer Trends, and Regional Performance to support business decision-making.
-I built a complete business analytics pipeline starting from raw retail data to executive dashboard insights
-📊 Sales Analysis
+📊 Retail Sales Data Analysis & Dashboard
+📌 Project Overview
 
-✔ How sales change over time
-✔ Monthly growth trends
-✔ Seasonal demand patterns
+This project focuses on analyzing retail sales data to understand business performance, customer behavior, and profit trends.
+The data was cleaned and analyzed using Python, and an interactive dashboard was built using Power BI to visualize key insights.
 
-💰 Profitability Analysis
+The goal of this project is to demonstrate data analyst skills like data cleaning, exploratory data analysis (EDA), and dashboard creation.
 
-✔ Which categories generate profit
-✔ Loss-making products
-✔ Discount impact on profit
+🎯 Objectives
 
-👥 Customer Analysis
+The main objectives of this project are:
 
-✔ Best customer segments
-✔ Top customers
-✔ Order behavior
+Analyze sales performance
 
-🌍 Regional Analysis
+Identify profitable product categories
 
-✔ High-performing regions
-✔ Revenue distribution
+Understand customer segments
 
-🚚 Operational Analysis
+Study regional sales trends
 
-✔ Delivery performance
+Build an interactive dashboard for business insights
+
+🛠 Tools & Technologies Used
+
+Python
+
+Pandas – Data cleaning and manipulation
+
+NumPy – Numerical operations
+
+Matplotlib / Seaborn – Data visualization
+
+Jupyter Notebook / VS Code – Analysis environment
+
+Power BI – Interactive dashboard creation
+
+📂 Project Workflow
+
+The project was completed in the following steps:
+
+1️⃣ Data Cleaning
+
+Removed missing values
+
+Fixed data types
+
+Handled duplicate records
+
+Created new calculated columns
+
+2️⃣ Exploratory Data Analysis (EDA)
+
+Analyzed important metrics like:
+
+Total Sales
+
+Total Profit
+
+Customer Segments
+
+Category Performance
+
+Regional Sales Trends
+
+Visualizations were created to understand patterns in the data.
+
+3️⃣ Power BI Dashboard
+
+An interactive dashboard was created to display business insights.
+
+Dashboard includes:
+
+KPI Cards (Total Sales, Total Profit, Total Orders, Customers)
+
+Monthly Sales Trend
+
+Sales by Category
+
+Sales by Customer Segment
+
+Profit by Region
+
+Interactive Filters (Region, Category, Segment, Year)
+
+📊 Key Insights
+
+Some insights discovered from the analysis:
+
+Certain product categories generate higher sales but lower profit margins
+
+Some regions contribute more to overall profitability
+
+Sales fluctuate based on seasonal trends
+
+Customer segments have different purchasing patterns
+
+📸 Dashboard Preview
+
+(Add your Power BI dashboard screenshot here)
+
+Example:
+
+dashboard.png
+🚀 Project Skills Demonstrated
+
+This project demonstrates:
+
+Data Cleaning
+
+Exploratory Data Analysis
+
+Data Visualization
+
+Business Insight Generation
+
+Dashboard Design
+
+End-to-End Data Analyst Workflow
+
+📁 Project Structure
+Retail-Sales-Analysis
+│
+├── data
+│   └── retail_sales.csv
+│
+├── notebooks
+│   └── eda_analysis.ipynb
+│
+├── dashboard
+│   └── retail_dashboard.pbix
+│
+├── images
+│   └── dashboard.png
+│
+└── README.md
+📌 Future Improvements
+
+Add predictive analysis
+
+Build machine learning sales forecasting
+
+Deploy dashboard online
